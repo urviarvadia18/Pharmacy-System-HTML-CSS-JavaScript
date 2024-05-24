@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharma In All</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-heartbeat "></i> Pharma In All </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="categories.html" target="_blank">products</a>
+        <a href="features.html" target="_blank">features</a>
+        <a href="review.html" target="_blank">review</a>
+        <a href="blogs.html" target="_blank">blogs</a>
+        <a href="about.html" target="_blank">about us</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+<!-- for search -->
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+<!-- for cart -->
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/a5.jpg" alt="">
+            <div class="content">
+                <h3>Kapiva Noni Juice</h3>
+                <span class="price">₹ 506.22</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/7.jfif" alt="">
+            <div class="content">
+                <h3>Bisacodyl DHG</h3>
+                <span class="price">₹ 212.00</span>
+                <span class="quantity">qty : 2</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/h3.jpg" alt="">
+            <div class="content">
+                <h3>LDD Bioscience LD 50 Climacteric Drops</h3>
+                <span class="price">₹ 116.00</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : ₹ 1046.22 </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+<!-- for login -->
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#"  id="rForm1">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+<!-- for Registration -->
+    <form action="" class="rForm1">
+        <h3>Registration Form</h3>
+        <input type="text" placeholder="Enter your name" class="box">
+        <input type="email" placeholder="your email" class="box">
+        <input type="tel" placeholder="Enter your Phone number" class="box">
+        <textarea class="box" placeholder="Enter your Addrees"></textarea>
+        <input type="password" placeholder="Enter your password" class="box">
+        <input type="submit" value="Register" class="btn" id="quit" onclick="quitt()">
+    </form>
+</header>
+
+
+
+<!-- home section starts  -->
+<section class="home" id="home">
+
+    <div class="content">
+        <h1>THE <span>BEST</span> AND <span>MOST EFFICIENT</span> PHARMACY IS WITHIN YOUR OWN SYSTEM.</h1>
+        <div class="pie animate" style="--p:70;--c:rgb(221, 221, 221);  font-size:35px; margin-right: 30px;  margin-top: 115px; margin-bottom: 80px;">  <center>250+</center> <div style="font-size:18px ;">Medicines</div></div>
+        <div class="pie animate" style="--p:80;--c:#140f48;  font-size:35px;  margin-right: 30px; margin-top: 115px; margin-bottom: 80px;">  <center>4000+</center> <div style="font-size:18px ;"><center>Users</center></div></div>
+        <div class="pie animate" style="--p:65;--c:#af0a0a;  font-size:35px;  margin-right: 30px; margin-top: 115px; margin-bottom: 80px;">  <center>1000+</center> <div style="font-size:18px ;"><center>Cities</center></div></div>
+    </div>
+   
+</section>
+
+<!-- footer section starts  -->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Pharma In All  <i class="fas fa-heartbeat"></i> </h3>
+            <p>Dr. Ronak B. Relia<br>
+            (B.H.M.S. ,B.B.A. ,P.G.D.H.M)</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> 9879073823 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> 6354827737 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> pharmainall@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Rajkot, India - 360 001</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="categories.html" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="features.html" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="review.html" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="blogs.html" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            <a href="about.html" class="links"> <i class="fas fa-arrow-right"></i> about us</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+    </div>
+</section> 
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
